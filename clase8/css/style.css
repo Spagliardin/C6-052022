@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: miTipografia;
+    src: url(../fonts/High\ Spirited.ttf);
+}
+
+header {
+    text-align: center;
+    background-color: #E6E6E6;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    background-color: #C4C4C4;
+    /* font-family: Roboto; */
+    font-family: miTipografia, sans-serif;
+}
+
+section ul li{
+    list-style-type: none;
+}
+
+section.clase ul li span{
+    font-weight: bold;
+}

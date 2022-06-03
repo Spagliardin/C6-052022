@@ -1,0 +1,24 @@
+
+ 
+
+
+  /*  
+
+  -------------- COMENTARIO----------------
+  selector {
+        propiedad: valor;
+        propiedad: valor;
+    }
+
+ */
+
+    span{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    main p#texto-unico span{
+        font-style: italic;
+        text-decoration: underline;
+        font-weight: 200;
+    }
