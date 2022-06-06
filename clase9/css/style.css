@@ -1,0 +1,36 @@
+body{
+    background-color: pink;
+}
+
+header{
+    text-align: center;
+    background-color: brown;
+}
+
+span{
+    text-align: center;
+    background-color: blue;
+}
+
+.texto1{
+    color: violet
+}
+
+main section > p{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-image: url(https://static.wikia.nocookie.net/doblaje/images/9/98/Kill_bill.jpg/revision/latest?cb=20111227065435&path-prefix=es);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+main section ul li{
+    list-style-type: none;
+    font-size: 20px;
+    color: blue;
+}
+
+.fa-solid.brown{
+    color: brown;
+}
