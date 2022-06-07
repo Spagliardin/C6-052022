@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 5000px;
+}
+
+
+header{
+    position: sticky;
+    background-color: yellow;
+}
+
+header ul li{
+    margin-left: 25px;
+    display: inline-block;
+}
+
+
+div{
+    background-color: pink;
+    width: 250px;
+    padding: 20px 45px 10px 15px;
+    margin: 25px;
+    border: 10px solid red;
+    /* height: 250px; */
+    display: inline-block;
+    /* position: sticky;
+    top: 20px; */
+}
+
+div > aside.div{
+    /* width: 200px; */
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1654476728635-c4a579238adf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+/* span{
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+} */
+
+/* h2{
+    padding-left: 100px;
+} */
