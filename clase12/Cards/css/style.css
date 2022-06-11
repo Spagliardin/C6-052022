@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header p{
+  background-color: #1CD1B0;
+  padding: 10px 0 10px 27px;
+}
+
+header h1{
+  background-color: #00669F;
+  padding: 28px;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section article{
+  margin: 150px 0;
+  text-align: center;
+  background-color: #F3F3F3;
+  width: 300px;
+  position: relative;
+  border-radius: 16px 16px 0 0;
+}
+
+section article div{
+  height: 193px;
+  background-image: url(../img/bg-Batman.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+  text-align: left;
+  border-radius: 16px 16px 0 0;
+}
+
+section article div.harley{
+  background-image: url(../img/bg-hearley.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+section article div i{
+  font-size: 25px;
+  color: red;
+}
+
+section article img{
+  width: 125px;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  left: 90px; 
+  /* position: relative;
+  bottom: 63.5px; */
+}
+
+section article h4{
+  margin-top: 75px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+section article p{
+  padding: 20px;
+  text-align: left;
+}
+
+section article button{
+  border: none;
+  color: white;
+  padding: 15px 37px;
+  background-color: #00669F;
+  margin-bottom: 20px;
+}
