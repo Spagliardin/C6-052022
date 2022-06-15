@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header, footer{
+    background: #222222;
+    padding: 10px 20px 10px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main section{
+    width: 450px;
+    height: 350px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+main section.free{
+    background: url(../img/delivery.jpg);
+}
+
+main section p{
+    color: red;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+main section p span{
+    color: white;
+}
+
+main section.podium{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section.podium h3{
+    color: red;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    position: relative;
+    top: -30px
+}
+
+main section.podium div.containAll{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section.podium div.containAll div.containPodium{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.podium div.containAll div.containPodium h6{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+main section.podium div.containAll div.containPodium ol li{
+    margin: 10px
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav ul li{
+    margin: 5px;
+}
