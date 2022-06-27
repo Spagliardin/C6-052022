@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <h1> Formularios </h1>
+
+    <form action="/results" method="get">
+
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre">
+        </div>
+
+        <input type="text" name="surname">
+
+        <input type="number" name="edad" min="18" max="65">
+
+        <input type="date" name="date">
+
+        <input type="email" name="email">
+
+        <select name="pais">
+            <option value="ARG">Argentina</option>
+            <option value="URU">Uruguay</option>
+            <option value="COL">Colombia</option>
+        </select>
+        
+
+
+        <!-- <input type="submit" value="Enviar"> -->
+        <button type="submit">  
+            <img src="img/search-interface-symbol.png" alt="">
+        </button>
+
+    </form>
+
+
+    
+</body>
+</html>
