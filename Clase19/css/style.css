@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main button{
+    margin-top: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 140, 255);
+    padding: 10px 20px 12px;
+    color: white;   
+    /* transition: all 1s ease-in-out;  */
+    animation: move 3s ease-in-out infinite alternate;
+}
+
+
+main button.dos{
+    animation: move 3s linear infinite alternate;
+    
+}
+main button.tres{
+    
+    animation: move 3s ease-in infinite alternate;
+}
+/* main button:hover{
+    background: gray;
+    color: brown;
+    transform: rotate(180deg);
+} */
+
+@keyframes move {
+    0%{
+
+    }
+    50%{
+        transform: translateX(300px);
+        background-color: blue;
+    }
+    100%{
+        transform: translateX(-300px);
+        background-color: yellow;
+        
+    }
+}

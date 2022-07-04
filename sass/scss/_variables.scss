@@ -1,0 +1,31 @@
+@use "sass:math" ;
+
+$numberColumns: 12;
+
+$baseColor: rgb(182, 59, 59);
+$secondaryColor: rgb(165, 165, 43);
+
+$max-width: (
+    sm: 460px,
+    lg: 590px,
+    xl: 790px,
+    xxl: 1040px
+);
+
+@mixin generateColumns($prefix: undefined) {
+
+    @if ($prefix != undefined) {
+        @for $i from 1 through 12 {
+            .col-#{$prefix}-#{$i}{
+                    width: math.percentage(math.div( $i , $numberColumns));
+            }
+        }
+    }@else {
+
+        @for $i from 1 through 12 {
+            .col-#{$i}{
+                width: math.percentage(math.div( $i , $numberColumns));
+            }
+        }
+    }
+}

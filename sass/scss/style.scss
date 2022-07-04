@@ -1,0 +1,23 @@
+@use "variables" as v;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+main{
+    display: flex;
+    padding: 20px;
+    div{
+        border: 1px solid black
+    }
+}
+
+@include v.generateColumns();
+
+@each $name, $value in v.$max-width {
+    @media (max-width: $value) {
+        @include v.generateColumns($name)
+    }
+}
