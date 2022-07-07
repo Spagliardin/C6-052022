@@ -1,0 +1,14 @@
+$bg-primary: green;
+$w: 50%;
+
+
+
+@mixin generateButtons($bgColor, $color, $fw) {
+    background-color: $bgColor;
+    font-weight: $fw;
+    color: $color;
+    border-radius: 16px;
+    border: none;
+    padding: 25px 40px;
+}
+

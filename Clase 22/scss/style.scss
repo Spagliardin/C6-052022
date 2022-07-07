@@ -1,0 +1,60 @@
+
+// :root{
+
+//     --bg-primary: brown;
+//     --w: 50%
+
+// }
+
+@import 'variables.scss';
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: pink;
+}
+
+
+
+main{
+    background-color: brown;
+    width: 75%;
+    section.hero{
+        background-color: $bg-primary;
+        width: $w;
+        div.text-combo{
+            background-color: pink;
+            width: $w;
+            h2{
+                font-size: 25px;
+            }
+            p{
+                font-size: 10px;
+                &:nth-child(2){
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+            button{
+                border: none;
+                padding: 25px 40px;
+            }
+        }
+    }
+}
+
+.btn{
+   @include generateButtons(rgb(101, 101, 199), white, 300);
+   &:hover{
+    background-color: pink;
+   }
+   &.warning{
+    @include generateButtons(yellow, black, 600);
+   }
+   &.danger{
+    @include generateButtons(red, white, 900);
+   }
+}
